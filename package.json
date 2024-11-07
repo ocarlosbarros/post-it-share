@@ -2,13 +2,18 @@
   "name": "post-it-share",
   "version": "1.0.0",
   "description": "",
+  "type": "module",
   "main": "index.js",
   "scripts": {
+    "dev": "node --watch ./src/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Carlos Barros",
   "license": "ISC",
   "dependencies": {
     "express": "^4.21.1"
+  },
+  "devDependencies": {
+    "dotenv": "^16.4.5"
   }
 }
